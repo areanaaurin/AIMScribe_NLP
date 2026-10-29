@@ -1,0 +1,510 @@
+[
+  {
+    "card_id": "DENGUE_DIAG_01",
+    "disease": "Dengue",
+    "clinical_category": "probable_diagnosis",
+    "prerequisites": [
+      "Acute onset of high-grade continuous fever (39-40 C / 102-104 F) lasting 2-7 days",
+      "Two or more of: nausea/vomiting, macular or maculopapular rash, severe headache, retro-orbital pain, myalgia/arthralgia (break-bone fever), positive tourniquet test, or leucopenia (WBC < 5000/mm3)"
+    ],
+    "recommended_action": "Classify as Suspected/Probable Dengue Fever. Evaluate immediately for Dengue Warning Signs (intense abdominal pain, persistent vomiting >=3 episodes/1 hr or >=4/6 hrs, mucosal bleeding, lethargy/irritability, hepatomegaly >=2cm, fluid accumulation, or progressive haematocrit rise) and high-risk comorbidities to stratify into Dengue Without Warning Signs (outpatient/home care) vs. Dengue With Warning Signs or High-Risk (inpatient admission).",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Must check for warning signs (page 28) and hemodynamic stability (BP, pulse, urine output)",
+      "Must check high-risk conditions requiring admission even without warning signs: pregnancy, age <1 yr or >65 yrs, obesity, diabetes, hypertension, chronic renal/liver/heart disease, peptic ulcer, hemolytic disease, steroid/NSAID/anticoagulant use, or living alone/poor healthcare access",
+      "Consider differential diagnosis: Chikungunya (prominent severe symmetric polyarthralgia/arthritis), Zika, Malaria, Enteric fever"
+    ],
+    "source": {
+      "title": "National Guideline for Clinical Management of Dengue",
+      "version": "Fifth Edition",
+      "pdf_page": "26-28, 45-47",
+      "evidence_passage": "Classical dengue fever characterized by high fever, severe headache, retro-orbital pain, myalgia, arthralgia and rashes. Leucopenia and thrombocytopenia are usually observed... Dengue without warning signs: Fever (2-7 days) with two or more of the followings; nausea, vomiting, rash, aches and pains, positive tourniquet tests, or leucopenia (WBC < 5000/mm3). Dengue with warning signs: Dengue fever with any one of the warning signs."
+    }
+  },
+  {
+    "card_id": "DENGUE_INV_01",
+    "disease": "Dengue",
+    "clinical_category": "investigations",
+    "prerequisites": [
+      "Suspected or probable Dengue fever",
+      "Duration of fever known (<= 5 days vs. > 5 days from onset)"
+    ],
+    "recommended_action": "If presenting within 5 days of fever onset: order baseline Complete Blood Count (CBC) with Haematocrit (Hct) and platelet count, Dengue NS1 Antigen test (or RT-PCR), and liver transaminases (SGOT/AST, SGPT/ALT). If presenting after 5 days of fever (Day 6 onward): order CBC with Hct and Dengue IgM/IgG Antibody test (since NS1 may become negative from day 4-5). Review daily with CBC starting at least on the 3rd day of illness until afebrile for 24-48 hours.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Missing information to check: Exact day of fever onset is mandatory to choose between NS1 Antigen (days 1-5) and Dengue IgM/IgG antibody (day 6+)",
+      "Note: Rising Hct >10% indicates early plasma leakage; >=20% rise from baseline (assumed 35% child, 38% adult female, 40% adult male) indicates established plasma leakage (DHF). Platelet <100,000/mm3 and NLR <2 precede/accompany leakage."
+    ],
+    "source": {
+      "title": "National Guideline for Clinical Management of Dengue",
+      "version": "Fifth Edition",
+      "pdf_page": "37-39, 41, 45, 48",
+      "evidence_passage": "Basic investigations depend on day of illness. CBC and NS1 Ag up to day 5 and CBC and Dengue Antibody from day 6 onward will support the diagnosis... Within 5 days: CBC, Haematocrit, Dengue NS1 antigen, SGOT, SGPT. These tests should be done during first consultation to get the baseline characteristics... Review daily with CBC."
+    }
+  },
+  {
+    "card_id": "DENGUE_MED_01",
+    "disease": "Dengue",
+    "clinical_category": "medication_guidance",
+    "prerequisites": [
+      "Suspected or confirmed Dengue fever suitable for outpatient/home management (no warning signs, normal vital signs and urine output, platelet >= 100x10^9/L, no high-risk comorbidities)"
+    ],
+    "recommended_action": "Prescribe oral Paracetamol for high fever and pain along with tepid sponging, and oral rehydration fluids with electrolytes (ORS, green coconut water, fruit juice, or soup) to maintain hydration. Anti-emetics and PPI/H2 receptor blockers may be given if necessary for nausea/gastritis. Strictly avoid all NSAIDs and steroids.",
+    "medication_details": [
+      {
+        "name": "Paracetamol",
+        "dose": "Max 3 gm/day in adults (60 mg/kg/24 hrs in children)",
+        "route": "Oral",
+        "frequency": "Divided doses as needed for fever",
+        "duration": "During febrile period",
+        "instructions": "Do not exceed 3 gm/day in adults. Warn patient that fever may not fully settle with paracetamol and not to take excess."
+      },
+      {
+        "name": "Oral Rehydration Fluid (ORS / Electrolyte fluids)",
+        "dose": "2400 mL per 24 hours for adults >=50 kg (or 2 mL/kg/hour for 24 hours if body weight <50 kg)",
+        "route": "Oral",
+        "frequency": "Spread evenly across the 24-hour day",
+        "duration": "Throughout acute febrile and defervescence phase",
+        "instructions": "Use ORS, green coconut water, fruit juices, or soup containing electrolytes rather than plain water alone."
+      }
+    ],
+    "exclusions_or_missing_info": [
+      "STRICT EXCLUSION: Avoid all NSAIDs (including COX-2 inhibitors), aspirin, and steroids due to severe bleeding risk",
+      "Temporarily withhold long-term warfarin, aspirin, clopidogrel, and dipyridamole (seek expert opinion if essential)",
+      "Missing information to check: Patient body weight (to adjust fluid to 2 mL/kg/hr if <50 kg or pediatric dose 60 mg/kg/day), current medications (anticoagulants/antiplatelets/NSAIDs), and liver disease history"
+    ],
+    "source": {
+      "title": "National Guideline for Clinical Management of Dengue",
+      "version": "Fifth Edition",
+      "pdf_page": "47-48",
+      "evidence_passage": "Do not exceed 3 gm/day of paracetamol. (60mg/kg/24hrs in child)... Ensure adequate oral fluid intake of around 2400 ml for 24 hours (if the body weight is less than 50kg, give fluids as 2ml/kg/hour for 24 hours)... Avoid all NSAIDS (including COX-2 inhibitors) and steroids. Temporally withhold warfarin, aspirin, clopidogrel & dipyridamole."
+    }
+  },
+  {
+    "card_id": "DENGUE_ADV_01",
+    "disease": "Dengue",
+    "clinical_category": "advice",
+    "prerequisites": [
+      "Suspected or probable Dengue fever managed at home or outpatient department"
+    ],
+    "recommended_action": "Advise adequate physical rest under a mosquito net, tepid sponging, light nutritious diet (avoid dark red/brown foods like beet root or red dragon fruit that mimic blood in vomit/stool), and passing urine every 3-4 hours. Follow up daily with CBC until afebrile for 24-48 hours. Instruct patient to return to hospital IMMEDIATELY if any warning sign develops, especially during defervescence (settling of fever).",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Immediate hospitalization required if any red flag appears: clinical deterioration as fever settles, inability to tolerate oral fluids, severe abdominal pain, persistent vomiting, lethargy/restlessness, mucosal bleeding (nose, gums, vaginal, black tarry stool, blood vomit), reduced urine output (<150-200 mL in 4-6 hours for >=50 kg), cold/clammy extremities, or difficulty breathing"
+    ],
+    "source": {
+      "title": "National Guideline for Clinical Management of Dengue",
+      "version": "Fifth Edition",
+      "pdf_page": "28, 47-48",
+      "evidence_passage": "Settling of fever is not a sign of recovery. Some patients will start plasma leakage around defervescence... It is advisable to avoid red/brown (i.e. dark) colored food... Advise patients to return to the hospital immediately, if they develop any of the following conditions: Clinical deterioration with settling of fever, Inability to tolerate oral fluids, Severe abdominal pain, Lethargy or irritability/restlessness, Bleeding tendency... Reduced urine output for the last 4-6 hours."
+    }
+  },
+  {
+    "card_id": "DIFF_DENGUE_CHIK_01",
+    "disease": "Dengue / Chikungunya",
+    "clinical_category": "probable_diagnosis",
+    "prerequisites": [
+      "Acute febrile illness with headache, rash, myalgia, or arthralgia where clinical features overlap between Dengue and Chikungunya"
+    ],
+    "recommended_action": "Consider both Dengue and Chikungunya in the differential diagnosis. Differentiate using high-certainty clinical/lab markers: Chikungunya is strongly favored by severe symmetric polyarthralgia/arthritis (++++ vs +/- in Dengue, often wrists/ankles/hands with morning stiffness and stooping posture) and lymphopenia, whereas Dengue is differentiated by thrombocytopenia (+++), progressive increase in haematocrit (hemoconcentration), neutropenia/leucopenia, retro-orbital pain, vomiting, and abdominal pain. CRITICAL POLICY: Manage all suspected Chikungunya patients as Dengue (avoiding aspirin/NSAIDs and monitoring CBC/Hct) until Dengue has been ruled out.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Missing information to check: Duration of fever (for NS1/RT-PCR vs IgM), presence of symmetric joint swelling/arthritis vs bleeding/warning signs, baseline CBC (platelet count and haematocrit), and pregnancy/comorbidity status",
+      "Do not prescribe NSAIDs while diagnosis is ambiguous because NSAIDs increase hemorrhage risk if the illness is Dengue"
+    ],
+    "source": {
+      "title": "National Guideline for Clinical Management of Dengue (5th Ed) & National Guideline on Chikungunya Management (2017)",
+      "version": "Fifth Edition / 2017",
+      "pdf_page": "Dengue: 29; Chikungunya: 16-18",
+      "evidence_passage": "Difficult to distinguish chikungunya and dengue based on clinical findings alone... Chikungunya virus more likely to cause high fever, severe polyarthralgia, arthritis, rash, and lymphopenia. Dengue virus more likely to cause neutropenia, thrombocytopenia, hemorrhage, shock, and death. Patients with suspected chikungunya should be managed as dengue until dengue has been ruled out. Aspirin and other NSAIDs can increase the risk of hemorrhage in patients with dengue."
+    }
+  },
+  {
+    "card_id": "HTN_DIAG_01",
+    "disease": "Hypertension",
+    "clinical_category": "probable_diagnosis",
+    "prerequisites": [
+      "Adult >= 18 years old",
+      "Elevated office blood pressure measurement (SBP >= 140 mmHg and/or DBP >= 90 mmHg)"
+    ],
+    "recommended_action": "If office BP is >= 160/100 mmHg OR accompanied by Hypertension-Mediated Organ Damage (HMOD, e.g., LVH, retinopathy, renal damage), confirm Hypertension on a single visit and evaluate/initiate drug treatment immediately. If initial office BP is 140-159/90-99 mmHg without HMOD, classify as Probable Grade 1 Hypertension, advise lifestyle modification, and confirm diagnosis with repeated measurements (at least 3 readings per visit across 2-3 visits at 1-4 week intervals, or after 2 weeks per primary care protocol, or via out-of-office HBPM/ABPM).",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Initial evaluation must measure BP in both arms (if difference >10 mmHg persists, use higher arm; if >20 mmHg, investigate further)",
+      "In elderly patients, diabetics, or those with dizziness/falls, measure lying BP (5 mins) and standing BP (at 1 and 3 mins) to rule out postural hypotension (SBP drop >=20 mmHg or DBP drop >=10 mmHg)",
+      "Missing information to check: Number of prior BP visits/readings, presence of HMOD or CVD symptoms (chest pain, breathlessness, visual changes, neurological deficits, edema), diabetes/CKD history, and pregnancy status"
+    ],
+    "source": {
+      "title": "Bangladesh Guidelines on Hypertension",
+      "version": "Second Edition 2023",
+      "pdf_page": "46-47, 64-65",
+      "evidence_passage": "The diagnosis might be made on a single visit, if BP is >=160/100 mmHg or there is accompanying evidence of hypertension mediated organ damage (HMOD)... When the initial SBP is between 140 and 159 mmHg, or the DBP is between 90 and 99 mmHg, repeat measurements should be performed on three separate occasions within a period of 1 to 4 weeks... Primary Care Protocol (Page 64): If SBP 140-159 or DBP 90-99 mmHg -> Advice for lifestyle modification -> Review BP after 2 weeks."
+    }
+  },
+  {
+    "card_id": "HTN_INV_01",
+    "disease": "Hypertension",
+    "clinical_category": "investigations",
+    "prerequisites": [
+      "Suspected or confirmed Hypertension in an adult"
+    ],
+    "recommended_action": "Order routine baseline investigations for all hypertensive patients to screen for comorbidities and HMOD: Blood tests for serum sodium, potassium, serum creatinine, and estimated GFR (eGFR); lipid profile and fasting blood glucose (if available); Urine dipstick analysis (and urine albumin:creatinine ratio if renal disease suspected); and a 12-lead ECG (to detect atrial fibrillation, LVH, or ischemic heart disease). Before initiating and several weeks after starting Losartan/ACEi/ARB or diuretics, check serum creatinine and potassium, and perform a pregnancy test in women of childbearing age.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "CRITICAL TIMING RULE: Do not delay starting pharmacological treatment while waiting for laboratory tests or ECG, especially in low-resource settings or when BP >= 160/100 mmHg. Long-acting dihydropyridine CCBs (Amlodipine) can be initiated safely without prior lab testing.",
+      "Additional targeted tests if HMOD or secondary cause suspected: Fundoscopy (Grade 2/3 HTN), Echocardiogram, Chest X-ray"
+    ],
+    "source": {
+      "title": "Bangladesh Guidelines on Hypertension",
+      "version": "Second Edition 2023",
+      "pdf_page": "51-52, 64",
+      "evidence_passage": "All hypertensive patients should undergo a limited number of investigations: Blood test (Sodium, potassium, serum creatinine and eGFR; if available lipid profile and fasting glucose), Urine analysis: Dipstick urine test, 12-lead ECG... In low-resourced areas... treatment should not be delayed, and testing can be done subsequently. Page 64 footnote c: Before initiating (and several weeks after starting) losartan, check serum creatinine and serum potassium. Avoid losartan for women of childbearing age who may become pregnant."
+    }
+  },
+  {
+    "card_id": "HTN_MED_01",
+    "disease": "Hypertension",
+    "clinical_category": "medication_guidance",
+    "prerequisites": [
+      "Adult >= 18 years with confirmed Hypertension",
+      "NOT pregnant and NOT a woman of childbearing age who may become pregnant",
+      "Persistent BP 140-159/90-99 mmHg after 2 weeks of lifestyle modification OR initial BP >= 160/100 mmHg"
+    ],
+    "recommended_action": "Follow the Primary Health Care Stepped Protocol: For persistent BP 140-159/90-99 mmHg, start Step 1 (Amlodipine 5 mg once daily; use 2.5 mg in elderly or low body weight). For initial BP >= 160/100 mmHg, start immediate treatment at Step 2 (Amlodipine 5 mg + Losartan 50 mg once daily). Review monthly: if target BP (<140/90 mmHg for most patients; <130/80 mmHg for diabetes, ischemic heart disease, stroke, CKD, or high CVD risk >=30%) is not met at Step 1, advance to Step 2; if not met at Step 2 after 1 month, advance to Step 3 (Amlodipine 5 mg + Losartan 50 mg + Hydrochlorothiazide 12.5 mg once daily, or increase Amlodipine to 10 mg at Step 2 and double Losartan to 100 mg at Step 3); if not met at Step 3 after 1 month, Step 4 refer to a specialist.",
+    "medication_details": [
+      {
+        "name": "Amlodipine (Step 1 or Combination)",
+        "dose": "5 mg (2.5 mg starting dose for elderly or low body weight; may increase to 10 mg)",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "duration": "Long-term / life-long maintenance with monthly review until target reached",
+        "instructions": "First-line monotherapy for BP 140-159/90-99 mmHg; combine with Losartan 50 mg immediately if initial BP >= 160/100 mmHg."
+      },
+      {
+        "name": "Losartan (Step 2 Combination)",
+        "dose": "50 mg (may double to 100 mg in Step 3 alternative)",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "duration": "Long-term maintenance, review after 1 month",
+        "instructions": "Combine with Amlodipine 5 mg once daily for Step 2 or as immediate initial therapy if BP >= 160/100 mmHg. Check serum creatinine and potassium."
+      },
+      {
+        "name": "Hydrochlorothiazide (Step 3 Combination)",
+        "dose": "12.5 mg",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "duration": "Long-term maintenance if Step 2 fails after 1 month",
+        "instructions": "Added to Amlodipine 5 mg + Losartan 50 mg at Step 3 after checking medication adherence."
+      }
+    ],
+    "exclusions_or_missing_info": [
+      "STRICT EXCLUSION: DO NOT prescribe Losartan, any ACE inhibitor, ARB, or thiazide diuretic to pregnant patients or women of childbearing age who may become pregnant",
+      "Do not use this primary care protocol for pregnant patients or children <18 years old (refer to specialist)",
+      "Missing information to check: Sex, age, pregnancy/childbearing status, body weight, comorbidities (diabetes, CKD, CVD) to set BP target (<140/90 vs <130/80 mmHg), and medication adherence"
+    ],
+    "source": {
+      "title": "Bangladesh Guidelines on Hypertension",
+      "version": "Second Edition 2023",
+      "pdf_page": "64-65",
+      "evidence_passage": "Step 1: Start amlodipine 5 mg once daily. Step 2: Review after 1 month. If treatment target not met, amlodipine 5 mg + losartan 50 mg once daily. Step 3: amlodipine 5 mg + losartan 50 mg + hydrochlorothiazide 12.5 mg once daily. Step 4: refer to a specialist. Footnote *: For patients with SBP >=160 mmHg or DBP >=100 mmHg, start immediate treatment at step 2 (amlodipine 5 mg + losartan 50 mg)."
+    }
+  },
+  {
+    "card_id": "HTN_MED_02",
+    "disease": "Hypertension",
+    "clinical_category": "medication_guidance",
+    "prerequisites": [
+      "Female patient with Hypertension who is of childbearing age (may become pregnant) OR currently pregnant"
+    ],
+    "recommended_action": "If the patient is CURRENTLY PREGNANT: DO NOT use the primary care hypertension drug protocol; refer immediately to an appropriate specialist. If the patient is a WOMAN OF CHILDBEARING AGE who may become pregnant (and is not currently pregnant): strictly avoid Losartan, ACE inhibitors, ARBs, and hydrochlorothiazide. Follow the dedicated Childbearing Age pathway: Step 1: Start Amlodipine 5 mg once daily. Step 2: Review after 1 month; if target BP not met, increase to Amlodipine 10 mg once daily. Step 3: Review after 1 month; if target not met, refer to a specialist.",
+    "medication_details": [
+      {
+        "name": "Amlodipine (Women of Childbearing Age Pathway)",
+        "dose": "Step 1: 5 mg; Step 2 (if target not met at 1 month): 10 mg",
+        "route": "Oral",
+        "frequency": "Once daily",
+        "duration": "Review monthly; refer to specialist at Step 3 if 10 mg fails after 1 month",
+        "instructions": "Only for non-pregnant women of childbearing age. If patient is pregnant, do not initiate primary care protocol—refer immediately to a specialist."
+      }
+    ],
+    "exclusions_or_missing_info": [
+      "ABSOLUTE CONTRAINDICATION: DO NOT PRESCRIBE Losartan or any ACE inhibitor or ARB or thiazide to women who may become pregnant or who are pregnant",
+      "Footnote *** & Section 5.3.6: This protocol must not be used for pregnant patients. If patient is pregnant, refer to a specialist.",
+      "Missing information to check: Confirm current pregnancy status (pregnancy test) in any female patient of reproductive age before prescribing antihypertensives"
+    ],
+    "source": {
+      "title": "Bangladesh Guidelines on Hypertension",
+      "version": "Second Edition 2023",
+      "pdf_page": "64-65",
+      "evidence_passage": "For Women of Childbearing Age Who May Become Pregnant: Step 1: Start amlodipine 5 mg once daily. Step 2: Review after 1 month. If treatment target not met, amlodipine 10 mg once daily. Step 3: Review after 1 month. If treatment target not met, refer to specialist. WARNING: DO NOT PRESCRIBE losartan or any ACE inhibitor or ARB or thiazide to women who may become pregnant. Footnote ***: This protocol must not be used for pregnant patients. If patient is pregnant, refer to a specialist."
+    }
+  },
+  {
+    "card_id": "HTN_ADV_01",
+    "disease": "Hypertension",
+    "clinical_category": "advice",
+    "prerequisites": [
+      "Adult with elevated blood pressure or confirmed Hypertension"
+    ],
+    "recommended_action": "Provide comprehensive lifestyle modification advice: (1) Avoid all alcohol and tobacco (including second-hand smoke); (2) Physical activity >= 2.5 hours per week; (3) Reduce salt intake to < 1 teaspoon per day (avoid added table salt, crisps, salted nuts, processed foods, soy/fish sauce); (4) Eat a heart-healthy diet (>= 5 servings of vegetables/fruit daily, healthy oils like sunflower/olive/sesame, lean meats/poultry, omega-3 rich fish twice weekly, avoid added sugars/sweets/sugary drinks, lose weight if overweight). Follow up monthly until target BP is achieved (within 3 months), then every 3-6 months. Refer to a specialist if accelerated/malignant HTN, suspected secondary HTN, resistant HTN, recent target organ damage, pregnancy, or age <18 years.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Check medication adherence and financial constraints at every follow-up visit before escalating drug therapy",
+      "Immediate specialist referral required for: pregnancy, age <18 years, accelerated/malignant HTN, suspected secondary HTN, resistant HTN, or recent onset HMOD"
+    ],
+    "source": {
+      "title": "Bangladesh Guidelines on Hypertension",
+      "version": "Second Edition 2023",
+      "pdf_page": "49, 64-65",
+      "evidence_passage": "Advice for lifestyle modification: Avoid alcohol and tobacco... Exercise >=2.5 hrs/week; Reduce salt to <1 teaspoon/day; Eat a heart-healthy diet... A monthly follow up after initiation or a change in antihypertensive medications until patients reach target should be done. Once target BP is achieved, follow-up at three to six-month interval is appropriate... Indications for referral: accelerated or malignant hypertension, suspected secondary hypertension, resistant hypertension, recent onset of target organ damage, pregnancy, children <18 years old."
+    }
+  },
+  {
+    "card_id": "CHOLERA_DIAG_01",
+    "disease": "Cholera",
+    "clinical_category": "probable_diagnosis",
+    "prerequisites": [
+      "Acute watery diarrhoea (>= 3 loose/watery stools in 24 hours) with or without vomiting"
+    ],
+    "recommended_action": "Assess and classify the patient's dehydration status immediately to assign the treatment plan: (1) No Sign of Dehydration -> assign Plan A (oral ORS at home/outpatient); (2) Some Dehydration -> assign Plan B (monitored 4-hour ORS therapy in facility); (3) Severe Dehydration -> assign Plan C (immediate IV Ringer's Lactate resuscitation). Also check if patient belongs to high-risk group (pregnant women, elderly, or severe/some dehydration requiring antibiotics) or has hypoglycaemia signs.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Missing information to check: Exact dehydration severity signs (mental state: alert vs restless/irritable vs lethargic/unconscious; radial pulse; eyes; skin pinch; thirst), patient age and exact body weight in kg (essential for fluid volume calculation), pregnancy status, and blood glucose level"
+    ],
+    "source": {
+      "title": "WHO Clinical Tools for Cholera Treatment Facilities",
+      "version": "2024",
+      "pdf_page": "5-9, 12, 14",
+      "evidence_passage": "Treatment for Some dehydration: Plan B (ORS)... Treatment for No sign of dehydration: Plan A (ORS)... Cholera fluids quick reference: Plan C (100 mL/kg Ringers in 3 hours for children >1 yr and adults; 6 hours for infants <1 yr)... Anyone with at least 3 episodes of diarrhoea in 24 hours should seek treatment."
+    }
+  },
+  {
+    "card_id": "CHOLERA_INV_01",
+    "disease": "Cholera",
+    "clinical_category": "investigations",
+    "prerequisites": [
+      "Suspected Cholera / acute watery diarrhoea under clinical assessment or rehydration"
+    ],
+    "recommended_action": "Perform bedside clinical hydration reassessment (at least every hour during Plan B ORS therapy, and continuously during Plan C IV resuscitation) and check blood glucose to screen for hypoglycaemia (defined as blood glucose < 3.0 mmol/L or < 54 mg/dL). If hypoglycaemia is treated with IV dextrose, recheck blood glucose after 30 minutes.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Missing information to check: Baseline blood glucose measurement (mmol/L or mg/dL), ongoing stool loss frequency, and hourly hydration reassessment status",
+      "Do not delay rehydration while performing assessments"
+    ],
+    "source": {
+      "title": "WHO Clinical Tools for Cholera Treatment Facilities",
+      "version": "2024",
+      "pdf_page": "6, 12",
+      "evidence_passage": "Plan B: Reassess at least every hour... Hypoglycaemia quick reference: Glucose less than 3.0 mmol/L (54 mg/dL) -> Give Dextrose bolus -> after 30 mins Recheck glucose."
+    }
+  },
+  {
+    "card_id": "CHOLERA_MED_01",
+    "disease": "Cholera",
+    "clinical_category": "medication_guidance",
+    "prerequisites": [
+      "Suspected Cholera with No Dehydration (Plan A) OR Some Dehydration (Plan B)"
+    ],
+    "recommended_action": "For Plan B (Some Dehydration): Administer ORS over the first 4 hours according to age/weight table (<4 mos/<5 kg: 200-400 mL; 4-11 mos/5-8 kg: 400-600 mL; 12-23 mos/8-12 kg: 600-800 mL; 2-4 yrs/12-16 kg: 800-1200 mL; 4-14 yrs/16-30 kg: 1200-2200 mL; 15+ yrs/30+ kg: 2200-4000 mL), plus additional ORS after each loose stool (<24 mos: 50-100 mL; 2-9 yrs: 100-200 mL; 10+ yrs: as much as wanted). For Plan A (No Dehydration): Give ORS after each loose stool at the same age-based volume and provide daily ORS packets (<24 mos: 500 mL/day; 2-9 yrs: 1 L/day; 10+ yrs: 2 L/day). For ALL pediatric patients: give oral Zinc for 10 days (<6 months: 10 mg once daily; >6 months: 20 mg once daily). Note: All pregnant women and elderly patients should receive antibiotics regardless of hydration status or treatment plan.",
+    "medication_details": [
+      {
+        "name": "Oral Rehydration Solution (ORS) - Plan B (Some Dehydration)",
+        "dose": "15+ yrs (30+ kg): 2200-4000 mL; 4-14 yrs (16-30 kg): 1200-2200 mL; 2-4 yrs (12-16 kg): 800-1200 mL; 12-23 mos (8-12 kg): 600-800 mL; 4-11 mos (5-8 kg): 400-600 mL; <4 mos (<5 kg): 200-400 mL",
+        "route": "Oral",
+        "frequency": "Given over 4 hours, plus ongoing loss replacement after each loose stool (<24 mos: 50-100 mL; 2-9 yrs: 100-200 mL; 10+ yrs: as much as wanted)",
+        "duration": "Initial 4 hours (reassess hourly), then maintenance until diarrhoea stops",
+        "instructions": "Give additional ORS to replace ongoing stool losses in addition to the 4-hour table volume."
+      },
+      {
+        "name": "Zinc Sulfate (Paediatric patients)",
+        "dose": "Under 6 months: 10 mg; Over 6 months: 20 mg",
+        "route": "Oral",
+        "frequency": "Once per day",
+        "duration": "10 days",
+        "instructions": "Give to paediatric patients; provide sufficient zinc at discharge to complete the full 10-day course."
+      },
+      {
+        "name": "Antibiotics (Per WHO Cholera Protocol indication)",
+        "dose": "Regimen per local/WHO antibiotic chart (indicated for severe dehydration, high purging, and all pregnant or elderly patients)",
+        "route": "Oral",
+        "frequency": "Per protocol antibiotic schedule",
+        "duration": "Single dose or 3-day course depending on agent",
+        "instructions": "All pregnant women and elderly patients should receive antibiotics regardless of their hydration status or treatment plan."
+      }
+    ],
+    "exclusions_or_missing_info": [
+      "If Severe Dehydration is present, do not rely on oral Plan A/B alone—escalate immediately to Plan C IV Ringer's Lactate",
+      "Missing information to check: Patient age and exact weight in kg (to select exact ORS volume bracket), dehydration grade, pregnancy status, and blood glucose"
+    ],
+    "source": {
+      "title": "WHO Clinical Tools for Cholera Treatment Facilities",
+      "version": "2024",
+      "pdf_page": "6, 8, 14",
+      "evidence_passage": "Plan B (ORS): 1 Give ORS over 4 hours (15+ years / 30+ kg: 2200-4000 mL)... 2 Reassess at least every hour. 3 Give additional ORS to replace ongoing losses... Zinc - give for 10 days: In patients under 6 months, 10mg once per day; In patients over 6 months, 20mg once per day. Antibiotics: All pregnant women and elderly patients should receive antibiotics regardless of their hydration status or treatment plan."
+    }
+  },
+  {
+    "card_id": "CHOLERA_MED_02",
+    "disease": "Cholera",
+    "clinical_category": "medication_guidance",
+    "prerequisites": [
+      "Suspected Cholera with Severe Dehydration (Plan C) OR Hypoglycaemia (Blood glucose < 3.0 mmol/L or < 54 mg/dL)"
+    ],
+    "recommended_action": "For Plan C (Severe Dehydration): Administer IV Ringer's Lactate totaling 100 mL/kg: in children >1 year and adults, give over 3 hours (First bolus: 30 mL/kg over 30 mins; followed by 70 mL/kg over 2.5 hours, e.g., for >=55 kg: 6000 mL total = 2000 mL in 30 mins + 4000 mL in 2.5 hrs). In infants <1 year, give 100 mL/kg over 6 hours (30 mL/kg over 1 hour, then 70 mL/kg over 5 hours). For Hypoglycaemia (Glucose < 3.0 mmol/L / 54 mg/dL): In adults, give IV Dextrose 50% (25-50 mL) OR Dextrose 10% (125-250 mL) over 2 minutes; in children, give IV Dextrose 10% (5 mL/kg) over 2 minutes. Recheck glucose after 30 mins, repeat 2nd bolus if necessary, and start maintenance dextrose infusion (800 mL Ringer's Lactate + 200 mL 50% Dextrose at 50 mL/hr in adults or 5 mL/kg/hr in children) if recurrent.",
+    "medication_details": [
+      {
+        "name": "Ringer's Lactate IV (Plan C Severe Dehydration)",
+        "dose": "100 mL/kg total (30 mL/kg initial bolus + 70 mL/kg continuation; e.g., 50-54 kg: 1500 mL in 30 mins + 3500 mL in 2.5 hrs; >=55 kg: 2000 mL in 30 mins + 4000 mL in 2.5 hrs)",
+        "route": "Intravenous (IV)",
+        "frequency": "Continuous rapid infusion",
+        "duration": "3 hours total for children >1 yr & adults (30 mins bolus + 2.5 hrs); 6 hours total for infants <1 yr (1 hr bolus + 5 hrs)",
+        "instructions": "Administer through an appropriate infusion set."
+      },
+      {
+        "name": "Dextrose IV (For Hypoglycaemia < 3.0 mmol/L or < 54 mg/dL)",
+        "dose": "Adults: 25-50 mL of Dextrose 50% OR 125-250 mL of Dextrose 10%. Children: 5 mL/kg of Dextrose 10%",
+        "route": "Intravenous (IV)",
+        "frequency": "Bolus over 2 minutes; recheck glucose at 30 mins and give 2nd bolus if necessary",
+        "duration": "Immediate bolus; if recurrent, maintenance infusion of 800 mL RL + 200 mL 50% dextrose at 50 mL/hr (adults) or 5 mL/kg/hr (children)",
+        "instructions": "If no IV access, 2-5 mL of 50% dextrose fluid can be placed inside the cheek using a syringe (do not use needle or spoon)."
+      }
+    ],
+    "exclusions_or_missing_info": [
+      "Missing information to check: Exact body weight in kg and age (<1 year vs >1 year) to select the 6-hour infant vs 3-hour adult/child IV schedule, and blood glucose level"
+    ],
+    "source": {
+      "title": "WHO Clinical Tools for Cholera Treatment Facilities",
+      "version": "2024",
+      "pdf_page": "9, 12",
+      "evidence_passage": "Cholera fluids quick reference: Children >1 year old, and adults (plan C is 100mL/kg in 3 hours): 30 mL/kg bolus Ringers over 30 mins, 70 mL/kg Ringers over 2.5 hours. Infants (under 1 year, plan C 100mL/kg in 6 hours): 30 mL/kg Ringers over 1 hour, 70 mL/kg Ringers over 5 hours... Hypoglycaemia quick reference: Glucose less than 3.0 mmol/L (54 mg/dL) -> Adults: Dextrose 50% 25-50 mL or Dextrose 10% 125-250 mL IV over 2 minutes; Children: Dextrose 10% 5 mL/kg IV over 2 minutes."
+    }
+  },
+  {
+    "card_id": "CHOLERA_ADV_01",
+    "disease": "Cholera",
+    "clinical_category": "advice",
+    "prerequisites": [
+      "Patient recovering from Cholera / acute watery diarrhoea being prepared for discharge or home care"
+    ],
+    "recommended_action": "Before discharge: (1) Provide at least 4 packets of ORS for all discharged patients to use at home (which may also be used for family members or neighbours who develop diarrhoea); (2) For paediatric patients, provide sufficient Zinc tablets to complete the full 10-day treatment; (3) Counsel patients and caregivers on cholera prevention (safe water, handwashing, sanitation); (4) Instruct them that anyone with >= 3 episodes of diarrhoea in 24 hours must seek medical treatment immediately.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Verify patient can tolerate oral fluids and has no signs of dehydration before discharge"
+    ],
+    "source": {
+      "title": "WHO Clinical Tools for Cholera Treatment Facilities",
+      "version": "2024",
+      "pdf_page": "14",
+      "evidence_passage": "Discharge assessment: Ensure patients and their caregivers understand that anyone with at least 3 episodes of diarrhoea in 24 hours should seek treatment. Ensure all patients and their caregivers understand how to prevent cholera before discharge. Provide at least 4 packets of ORS for all patients who are discharged to use at home... For paediatric patients give sufficient zinc to complete 10 days treatment."
+    }
+  },
+  {
+    "card_id": "CHIK_DIAG_01",
+    "disease": "Chikungunya",
+    "clinical_category": "probable_diagnosis",
+    "prerequisites": [
+      "Sudden/acute onset of high fever (> 38.5 C / 101.3 F, typically lasting 24-48 hours)",
+      "Severe arthralgia or arthritis (typically symmetric, involving ankles, wrists, and small joints of hands, worse in the morning, relieved by mild exercise, or causing a stooped/bending posture) and/or maculopapular rash"
+    ],
+    "recommended_action": "Categorize diagnosis as: Possible Case (meets clinical criteria of acute fever >38.5 C + severe arthralgia/arthritis), Probable Case (meets clinical criteria + epidemiological criteria of residing in/visiting an epidemic area within 15 days), or Confirmed Case (laboratory confirmed). Classify clinical severity into Mild (low-grade fever, mild arthralgia/myalgia, rash), Moderate (persistent fever, moderate arthralgia/arthritis, generalized myalgia, hypotension, mild bleeding, retro-orbital pain, oliguria), or Severe (persistent high fever, severe arthritis, persistent vomiting/diarrhoea, altered sensorium, GI bleeding, shock). Mild/moderate cases without high-risk features can be managed at home; severe or high-risk cases require hospital admission.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Check Hospital Admission Criteria (Page 19): hemodynamic instability (syncope, SBP <90 mmHg, pulse pressure <30 mmHg), oliguria (<500 mL/24 hrs), altered sensorium, bleeding, persistent disabling joint pain after 3 days of treatment, age >60 years, infants <1 year, pregnancy, or high-risk comorbidities (HTN, diabetes, CAD/CVD, COPD, co-infection with Dengue/TB/Malaria)",
+      "Manage as Dengue until Dengue is ruled out"
+    ],
+    "source": {
+      "title": "National Guideline on Chikungunya Management",
+      "version": "2017",
+      "pdf_page": "11-15, 18-19",
+      "evidence_passage": "Chikungunya Fever should be suspected when a person develops sudden onset of fever, joint manifestations and rash... Clinical criteria: acute onset of fever >38.5 C, severe arthralgia/arthritis not explained by other medical conditions. Epidemiological criteria: Residing or having visited epidemic areas... Involvement is symmetric and often ankles, wrists and small joints of the hand are the worst affected."
+    }
+  },
+  {
+    "card_id": "CHIK_INV_01",
+    "disease": "Chikungunya",
+    "clinical_category": "investigations",
+    "prerequisites": [
+      "Suspected or probable Chikungunya fever"
+    ],
+    "recommended_action": "Order routine laboratory investigations: CBC (typically shows leucopenia/lymphopenia; thrombocytopenia is rare unlike Dengue), ESR (usually elevated), C-Reactive Protein (CRP, increased in acute phase), and SGPT (elevated). For specific confirmation depending on illness duration: within 5 days of illness onset, order Real-Time RT-PCR for Chikungunya viral RNA (performed at IEDCR) or virus isolation; between 5 to 28 days of fever onset, order Chikungunya-specific IgM antibody test (or paired IgG 3 weeks apart). Simultaneously test for Dengue (e.g., Dengue NS1 antigen if <=5 days) to exclude Dengue.",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Note: Diagnostic validity of currently available rapid ICT kits for Chikungunya IgM/IgG is very poor",
+      "If neurological features (meningo-encephalitis) are present, CSF specimen is indicated",
+      "Missing information to check: Exact duration of fever in days (to choose RT-PCR [<=5 days] vs IgM serology [5-28 days]) and Dengue NS1 status"
+    ],
+    "source": {
+      "title": "National Guideline on Chikungunya Management",
+      "version": "2017",
+      "pdf_page": "11, 21-22, 26",
+      "evidence_passage": "Routine Laboratory Investigations: CBC (Leucopenia; Thrombocytopenia: rare), ESR: Usually Elevated, C-Reactive Protein: Increased during the Acute Phase, SGPT: Elevated. Specific Laboratory Investigations: Presence of viral RNA by real Time RT-PCR (Within 5 days of onset of Illness); Presence of viral specific IgM antibody in single serum sample collected within 5 to 28 days of onset Fever."
+    }
+  },
+  {
+    "card_id": "CHIK_MED_01",
+    "disease": "Chikungunya",
+    "clinical_category": "medication_guidance",
+    "prerequisites": [
+      "Suspected or confirmed Chikungunya fever in acute stage (first 7-10 days)"
+    ],
+    "recommended_action": "Prescribe Paracetamol for fever and joint pain, oral rehydration fluids with salt/electrolytes (~2 litres/24 hours), and oral antihistamines if skin itching/pruritus is present. Strictly avoid aspirin, self-medicated NSAIDs, and systemic steroids during the acute stage (first 7-10 days). After 7-10 days (post-acute phase), a physician may prescribe an NSAID ONLY IF Dengue is excluded (Dengue NS1 negative, afebrile for at least 48 hours, and no dengue warning signs). For refractory chronic arthralgia, hydroxychloroquine 200 mg orally once daily (or chloroquine phosphate 300 mg/day) for 4 weeks may be used.",
+    "medication_details": [
+      {
+        "name": "Paracetamol",
+        "dose": "Adults: up to 1000 mg per dose (up to 4 times daily, max 4000 mg/day if no liver/kidney disease); Children: 50-60 mg/kg/day in divided doses",
+        "route": "Oral",
+        "frequency": "Up to 4 times daily during periods of fever/pain",
+        "duration": "Acute febrile and pain phase",
+        "instructions": "Use only in persons with no pre-existing liver or kidney disease. Note: If Dengue has not yet been excluded, adhere to the stricter Dengue Paracetamol cap of max 3 gm/day in adults."
+      },
+      {
+        "name": "Oral Fluids with Electrolytes",
+        "dose": "Approximately 2 litres per 24 hours",
+        "route": "Oral",
+        "frequency": "Throughout the day",
+        "duration": "During acute illness",
+        "instructions": "Consume plenty of water with electrolytes / home-available fluids with salt."
+      },
+      {
+        "name": "Antihistamines (if itching/pruritus present)",
+        "dose": "Standard symptomatic dose",
+        "route": "Oral",
+        "frequency": "As needed for itching",
+        "duration": "During acute rash/itching phase",
+        "instructions": "Can be used for pruritic skin rash; Zinc oxide cream or Calamine lotion may be used for hyperpigmentation/papular eruptions."
+      }
+    ],
+    "exclusions_or_missing_info": [
+      "STRICT EXCLUSION: Avoid Aspirin and NSAIDs during the first 10 days and until Dengue is adequately excluded (NS1 negative, afebrile >=48 hrs, no warning signs). Steroids have NO role in the acute stage.",
+      "Paracetamol full dose requires excluding pre-existing liver or kidney disease",
+      "Missing information to check: Pre-existing liver/kidney disease, duration of illness (<=10 days vs >10 days), Dengue exclusion status, and hospital admission criteria (pregnancy, age >60 or <1 yr, hemodynamic instability)"
+    ],
+    "source": {
+      "title": "National Guideline on Chikungunya Management",
+      "version": "2017",
+      "pdf_page": "18-20, 26",
+      "evidence_passage": "Consume plenty of water with electrolytes (approximately 2 litres of home available fluids with salt in 24 hours). Take paracetamol tablets during periods of fever (up to 1000 mg tablets four times daily), in persons with no preexisting liver or kidney disease. Children may be given 50-60 mg per kg body weight per day in divided doses... Avoid self medication with aspirin or NSAIDs. Antihistamines can be used for itching... Aspirin or NSAIDs should be avoided during first 10 days. NSAIDs can be used in Chikungunya only when Dengue fever is adequately excluded. Steroid has no role in acute stage."
+    }
+  },
+  {
+    "card_id": "CHIK_ADV_01",
+    "disease": "Chikungunya",
+    "clinical_category": "advice",
+    "prerequisites": [
+      "Suspected or confirmed Chikungunya fever"
+    ],
+    "recommended_action": "In the ACUTE phase (first 7-10 days): Advise adequate rest in a warm environment, refrain from exertion, and apply COLD compresses to painful joints to reduce joint damage. Strictly avoid heat application (worsens joint pain) and DO NOT perform formal physiotherapy in the acute phase (maintain only normal gentle joint/body movement). In the POST-ACUTE / RECOVERING phase (after 7-10 days): Recommend mild exercises (walking on level ground, active hand movements, proper joint posturing to prevent stiffness) and refer patients with persistent arthralgia/arthritis or loss of autonomy to an arthralgia clinic / physical medicine specialist for rehabilitation. Prevent mosquito transmission (daytime-biting Aedes control, mosquito nets/repellents). Nursing mothers are encouraged to continue breastfeeding (not transmitted via breast milk).",
+    "medication_details": [],
+    "exclusions_or_missing_info": [
+      "Do not advise heat compresses or physiotherapy during the acute stage",
+      "Admit immediately if patient is pregnant (risk of perinatal vertical transmission), >60 years, <1 year, oliguric, bleeding, hypotensive, or has persistent disabling arthritis after 3 days of symptomatic treatment",
+      "Consult ophthalmologist if ocular symptoms (uveitis/blurred vision) occur"
+    ],
+    "source": {
+      "title": "National Guideline on Chikungunya Management",
+      "version": "2017",
+      "pdf_page": "18-22, 26-27",
+      "evidence_passage": "Cold compresses may help in reducing joint damage. Heat may increase/worsen joint pain and is therefore best to avoid during acute stage. Refrain from exertion... Opinion of Expert Committee (Page 26): The experts agreed that there is no indication of physiotherapy in acute phase. Only cold compression can be advised. Mild forms of exercise are recommended in post-acute phase (walking on level grounds, active hand movements, proper posturing)."
+    }
+  }
+]
